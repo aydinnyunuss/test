@@ -1,0 +1,7 @@
+stages:
+  - print
+
+print_test_variable:
+  stage: print
+  script:
+    - echo "The value of TEST is: $TEST"
